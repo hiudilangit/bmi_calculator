@@ -1,0 +1,12 @@
+name = "Hiu"
+weight_kg = 85
+height_m = 1.8
+
+bmi = weight_kg / (height_m ** 2)
+
+if bmi < 25:
+    print("is healthy")
+else:
+    print("is overweight")
+
+print(bmi)
