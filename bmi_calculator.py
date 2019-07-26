@@ -20,8 +20,8 @@ print(name)
 weight = input('how much do you weigh in kg?')
 print(weight, 'kg')
 
-height = input('how tall are you in cm?')
-print(height, 'cm')
+height = input('how tall are you in m?')
+print(height, 'm')
 
 bmi = weight / (height ** 2)
 
